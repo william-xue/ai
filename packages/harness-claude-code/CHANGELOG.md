@@ -1,5 +1,13 @@
 # @ai-sdk/harness-claude-code
 
+## 1.0.138
+
+### Patch Changes
+
+- 91345da: fix(harness-claude-code): forward subagent and task activity as raw stream parts
+
+  Expose `agentProgressSummaries` and `forwardSubagentText` through `createClaudeCode`.
+
 ## 1.0.137
 
 ### Patch Changes
